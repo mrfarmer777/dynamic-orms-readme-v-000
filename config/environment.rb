@@ -13,4 +13,4 @@ sql = <<-SQL
 SQL
 
 DB[:conn].execute(sql)    #sets up the table based on SQL above
-DB[:conn].results_as_hash = true  #interesting! Providing the execution results as a hash? Much nicer than an array...
+DB[:conn].results_as_hash = true  #interesting! Providing the execution results as a hash? Much nicer than an array..., keys are column names, BTW
